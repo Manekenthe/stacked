@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stacked</title>
+  <meta name="description" content="Collecting tools that inspire. My personal stack of finds worth sharing. A place where I collect tools worth keeping. Discover what's just been added to Stacked.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stacked">
+  <meta property="og:description" content="Collecting tools that inspire. My personal stack of finds worth sharing.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Icon sprite (all icons use currentColor) -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-add" viewBox="0 0 256 256"><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-audio" viewBox="0 0 256 256"><path d="M218.9,77.1a71.9,71.9,0,0,1,0,101.8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="80" y1="88" x2="80" y2="168" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M190.6,105.4a31.9,31.9,0,0,1,0,45.2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-barbell" viewBox="0 0 256 256"><rect x="56" y="56" width="40" height="144" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="160" y="56" width="40" height="144" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M200,80h24a8,8,0,0,1,8,8v80a8,8,0,0,1-8,8H200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M56,176H32a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="96" y1="128" x2="160" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="232" y1="128" x2="248" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="8" y1="128" x2="24" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 8.25C12 6.593 13.343 5.25 15 5.25H21.75V18.75H15C13.343 18.75 12 20.093 12 21.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M2.25 18.75H9C10.657 18.75 12 20.093 12 21.75V8.25C12 6.593 10.657 5.25 9 5.25H2.25V18.75Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M15 9H18.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M15 12H18.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M15 15H18.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 256 256"><line x1="128" y1="176" x2="128" y2="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M88,144a40,40,0,1,1-40,40v-6.7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M168,144a40,40,0,1,0,40,40v-6.7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M72,180H64A48,48,0,0,1,48,86.7V72a40,40,0,0,1,80,0V184" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M184,180h8a48,48,0,0,0,16-93.3V72a40,40,0,0,0-80,0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M88,84v8a28,28,0,0,1-28,28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M168,84v8a28,28,0,0,0,28,28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M3.75 19.5C3.336 19.5 3 19.164 3 18.75V7.5C3 7.086 3.336 6.75 3.75 6.75H20.25C20.664 6.75 21 7.086 21 7.5V18.75C21 19.164 20.664 19.5 20.25 19.5H3.75Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M8.25 6.75V6C8.25 3.929 9.929 2.25 12 2.25C14.071 2.25 15.75 3.929 15.75 6V6.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+    <symbol id="i-broom" viewBox="0 0 24 24"><path d="M10.5 21C9.16201 19.807 8.21501 18.239 7.78101 16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M18 14.2499C18 17.2189 19.248 19.7819 21.75 20.9999H5.719C3.972 19.1869 2.998 16.7679 3 14.2499C3 11.6059 4.053 9.47891 5.763 7.72191C5.975 7.50691 6.295 7.43991 6.576 7.55191L8.955 8.51591C9.326 8.66391 9.74 8.65791 10.106 8.49891C10.473 8.34091 10.761 8.04291 10.907 7.67191L12.876 2.69291C13.265 1.75491 14.326 1.25691 15.278 1.61191C15.756 1.78891 16.14 2.15291 16.344 2.61991C16.547 3.08691 16.552 3.61591 16.358 4.08691L14.356 9.06491C14.051 9.83391 14.425 10.7039 15.193 11.0109L17.531 11.9339C17.815 12.0489 18.001 12.3239 18 12.6299V14.2499Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M4.11801 9.89697L18.075 15.48" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 256 256"><circle cx="80" cy="216" r="16"/><circle cx="184" cy="216" r="16"/><path d="M42.3,72H221.7l-26.4,92.4A15.9,15.9,0,0,1,179.9,176H84.1a15.9,15.9,0,0,1-15.4-11.6L32.5,37.8A8,8,0,0,0,24.8,32H8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 256 256"><polyline points="224 208 32 208 32 48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="208 64 128 144 96 112 32 176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="208 104 208 64 168 64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 256 256"><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-code" viewBox="0 0 256 256"><polyline points="64 88 16 128 64 168" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="192 88 240 128 192 168" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="160" y1="40" x2="96" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 256 256"><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"/><polygon points="145 145 173.1 82.8 111 111 85.6 170.4 145 145" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-credit-card" viewBox="0 0 256 256"><rect x="24" y="56" width="208" height="144" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="168" y1="168" x2="200" y2="168" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="168" x2="136" y2="168" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="24" y1="96.9" x2="232" y2="96.9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-cube" viewBox="0 0 256 256"><path d="M224,177.3V78.7a8.1,8.1,0,0,0-4.1-7l-88-49.5a7.8,7.8,0,0,0-7.8,0l-88,49.5a8.1,8.1,0,0,0-4.1,7v98.6a8.1,8.1,0,0,0,4.1,7l88,49.5a7.8,7.8,0,0,0,7.8,0l88-49.5A8.1,8.1,0,0,0,224,177.3Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="222.9 74.6 128.9 128 33.1 74.6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="128.9" y1="128" x2="128" y2="234.8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-diamond" viewBox="0 0 256 256"><rect x="99.7" y="35.7" width="56.6" height="56.57" rx="8" transform="translate(-7.8 109.3) rotate(-45)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="163.7" y="99.7" width="56.6" height="56.57" rx="8" transform="translate(-34.3 173.3) rotate(-45)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="35.7" y="99.7" width="56.6" height="56.57" rx="8" transform="translate(-71.8 82.7) rotate(-45)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="99.7" y="163.7" width="56.6" height="56.57" rx="8" transform="translate(-98.3 146.7) rotate(-45)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-ethereum" viewBox="0 0 24 24"><path d="M12 1.5V22.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M20.25 12L12 15.75L3.75 12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M12 1.5L20.25 12L12 22.5L3.75 12L12 1.5Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 256 256"><path d="M224,88V200.9a7.1,7.1,0,0,1-7.1,7.1H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.3a8.1,8.1,0,0,1,4.8,1.6l27.8,20.8a8.1,8.1,0,0,0,4.8,1.6H216A8,8,0,0,1,224,88Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 256 256"><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"/><line x1="37.5" y1="96" x2="218.5" y2="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="37.5" y1="160" x2="218.5" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><ellipse cx="128" cy="128" rx="40" ry="93.4" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 256 256"><path d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-lightbulb" viewBox="0 0 256 256"><line x1="88" y1="232" x2="168" y2="232" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M78.7,167A79.5,79.5,0,0,1,48,104.5C47.8,61.1,82.7,25,126.1,24a80,80,0,0,1,51.3,142.9A24.2,24.2,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6A24.4,24.4,0,0,0,78.7,167Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M136.1,56.8a47.9,47.9,0,0,1,39.2,39.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-lightning" viewBox="0 0 256 256"><polygon points="96 240 112 160 48 136 160 16 144 96 208 120 96 240" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M12.75 11.25L20.25 3.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M20.25 9.75L20.249 3.751L14.25 3.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M17.25 12.75V19.5C17.25 19.914 16.914 20.25 16.5 20.25H4.5C4.086 20.25 3.75 19.914 3.75 19.5V7.5C3.75 7.086 4.086 6.75 4.5 6.75H11.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 256 256"><rect x="40" y="88" width="176" height="128" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M92,88V52a36,36,0,0,1,72,0V88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 256 256"><path d="M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="224 56 128 144 32 56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-play" viewBox="0 0 256 256"><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 256 256"><path d="M94.1,184.6c-11.4,33.9-56.6,33.9-56.6,33.9s0-45.2,33.9-56.6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M195.9,105.4,128,173.3,82.7,128l67.9-67.9C176.3,34.4,202,34.7,213,36.3a7.8,7.8,0,0,1,6.7,6.7C221.3,54,221.6,79.7,195.9,105.4Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M184.6,116.7v64.6a8,8,0,0,1-2.4,5.6l-32.3,32.4a8,8,0,0,1-13.5-4.1L128,173.3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M139.3,71.4H74.7a8,8,0,0,0-5.6,2.4L36.7,106.1a8,8,0,0,0,4.1,13.5L82.7,128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-search" viewBox="0 0 256 256"><circle cx="116" cy="116" r="84" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 256 256"><path d="M138.7,175.5l-19.2,52.1a8,8,0,0,1-15,0L85.3,175.5a8.1,8.1,0,0,0-4.8-4.8L28.4,151.5a8,8,0,0,1,0-15l52.1-19.2a8.1,8.1,0,0,0,4.8-4.8l19.2-52.1a8,8,0,0,1,15,0l19.2,52.1a8.1,8.1,0,0,0,4.8,4.8l52.1,19.2a8,8,0,0,1,0,15l-52.1,19.2A8.1,8.1,0,0,0,138.7,175.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="176" y1="16" x2="176" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="40" x2="152" y2="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="224" y1="72" x2="224" y2="104" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="240" y1="88" x2="208" y2="88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-target" viewBox="0 0 256 256"><line x1="128" y1="128" x2="224" y2="32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M195.9,60.1a96.2,96.2,0,1,0,18.7,26.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M161.9,94.1a47.9,47.9,0,1,0,14,31.2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-wheelchair" viewBox="0 0 256 256"><circle cx="95.9" cy="40" r="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="95.9 60 95.9 132 183.9 132 215.9 196 239.9 188" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M167.8,164a64,64,0,1,1-63.9-68h56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M4.5 3.75H9L19.5 20.25H15L4.5 3.75Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M10.676 13.4561L4.5 20.2501" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/><path d="M19.5 3.75L13.324 10.544" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></symbol>
+  </svg>
+
+  <!-- Top nav (sticky) -->
+  <header class="topnav">
+    <div class="topnav__left">
+      <a class="logo" href="./" aria-label="Stacked – home">
+        <img src="assets/icons/logo.svg" alt="Stacked" width="120" height="40">
+      </a>
+      <span class="topnav__divider" aria-hidden="true"></span>
+      <p class="topnav__count"><span id="tool-count">00856</span> tools collected</p>
+    </div>
+
+    <div class="topnav__right">
+      <form class="search" id="search-form" role="search" autocomplete="off">
+        <svg class="icon"><use href="#i-search"/></svg>
+        <input id="search" name="q" type="search" placeholder="Search tool…" aria-label="Search tools" spellcheck="false">
+        <button class="search__clear" id="search-clear" type="button" aria-label="Clear search" hidden>
+          <svg class="icon"><use href="#i-close"/></svg>
+        </button>
+      </form>
+
+      <button class="btn btn--primary" id="open-modal" type="button" aria-haspopup="dialog">
+        <svg class="icon"><use href="#i-add"/></svg>
+        <span class="btn__label">Submit tool</span>
+      </button>
+      <a class="btn btn--secondary" href="https://ko-fi.com/addtostacked" target="_blank" rel="noopener noreferrer">
+        <svg class="icon"><use href="#i-heart"/></svg>
+        <span class="btn__label">Support</span>
+      </a>
+      <a class="btn btn--secondary btn--icon" href="mailto:addtostacked@proton.me" aria-label="Email">
+        <svg class="icon"><use href="#i-mail"/></svg>
+      </a>
+      <a class="btn btn--secondary btn--icon" href="https://x.com/addtostacked" target="_blank" rel="noopener noreferrer" aria-label="Stacked on X">
+        <svg class="icon"><use href="#i-x"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Categories -->
+  <nav class="categories" aria-label="Categories">
+    <div class="categories__list">
+      <button class="chip is-selected" type="button" data-category="All" aria-pressed="true">
+        <svg class="icon"><use href="#i-compass"/></svg>All
+      </button>
+      <button class="chip" type="button" data-category="3D" aria-pressed="false">
+        <svg class="icon"><use href="#i-cube"/></svg>3D
+      </button>
+      <button class="chip" type="button" data-category="Accessibility" aria-pressed="false">
+        <svg class="icon"><use href="#i-wheelchair"/></svg>Accessibility
+      </button>
+      <button class="chip" type="button" data-category="AI" aria-pressed="false">
+        <svg class="icon"><use href="#i-sparkle"/></svg>AI
+      </button>
+      <button class="chip" type="button" data-category="Analytics" aria-pressed="false">
+        <svg class="icon"><use href="#i-chart"/></svg>Analytics
+      </button>
+      <button class="chip" type="button" data-category="Audio" aria-pressed="false">
+        <svg class="icon"><use href="#i-audio"/></svg>Audio
+      </button>
+      <button class="chip" type="button" data-category="Careers" aria-pressed="false">
+        <svg class="icon"><use href="#i-briefcase"/></svg>Careers
+      </button>
+      <button class="chip" type="button" data-category="Coding" aria-pressed="false">
+        <svg class="icon"><use href="#i-code"/></svg>Coding
+      </button>
+      <button class="chip" type="button" data-category="Design" aria-pressed="false">
+        <svg class="icon"><use href="#i-broom"/></svg>Design
+      </button>
+      <button class="chip" type="button" data-category="Design Resources" aria-pressed="false">
+        <svg class="icon"><use href="#i-diamond"/></svg>Design Resources
+      </button>
+      <button class="chip" type="button" data-category="E-Commerce" aria-pressed="false">
+        <svg class="icon"><use href="#i-cart"/></svg>E-Commerce
+      </button>
+      <button class="chip" type="button" data-category="Finance" aria-pressed="false">
+        <svg class="icon"><use href="#i-credit-card"/></svg>Finance
+      </button>
+      <button class="chip" type="button" data-category="Fitness &amp; Health" aria-pressed="false">
+        <svg class="icon"><use href="#i-barbell"/></svg>Fitness &amp; Health
+      </button>
+      <button class="chip" type="button" data-category="Inspiration" aria-pressed="false">
+        <svg class="icon"><use href="#i-lightbulb"/></svg>Inspiration
+      </button>
+      <button class="chip" type="button" data-category="Learning" aria-pressed="false">
+        <svg class="icon"><use href="#i-brain"/></svg>Learning
+      </button>
+      <button class="chip" type="button" data-category="Marketing" aria-pressed="false">
+        <svg class="icon"><use href="#i-target"/></svg>Marketing
+      </button>
+      <button class="chip" type="button" data-category="No-Code" aria-pressed="false">
+        <svg class="icon"><use href="#i-lightning"/></svg>No-Code
+      </button>
+      <button class="chip" type="button" data-category="Privacy &amp; Security" aria-pressed="false">
+        <svg class="icon"><use href="#i-lock"/></svg>Privacy &amp; Security
+      </button>
+      <button class="chip" type="button" data-category="Productivity" aria-pressed="false">
+        <svg class="icon"><use href="#i-folder"/></svg>Productivity
+      </button>
+      <button class="chip" type="button" data-category="Social Media" aria-pressed="false">
+        <svg class="icon"><use href="#i-globe"/></svg>Social Media
+      </button>
+      <button class="chip" type="button" data-category="Startups" aria-pressed="false">
+        <svg class="icon"><use href="#i-rocket"/></svg>Startups
+      </button>
+      <button class="chip" type="button" data-category="Video" aria-pressed="false">
+        <svg class="icon"><use href="#i-play"/></svg>Video
+      </button>
+      <button class="chip" type="button" data-category="Web3" aria-pressed="false">
+        <svg class="icon"><use href="#i-ethereum"/></svg>Web3
+      </button>
+      <button class="chip" type="button" data-category="Writing" aria-pressed="false">
+        <svg class="icon"><use href="#i-book"/></svg>Writing
+      </button>
+    </div>
+  </nav>
+
+  <!-- Body: grid of cards (rendered from tools.js) -->
+  <main class="body">
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No tools found.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025. Stacked. All Rights Reserved. Made by <a href="https://designtogether.framer.website/" target="_blank" rel="noopener noreferrer">@dsgntgthr</a></p>
+    <p>Made with love 🖤</p>
+  </footer>
+
+  <!-- Modal: Add a new tool -->
+  <div class="overlay" id="overlay" hidden>
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <div class="modal__head">
+        <h2 class="modal__title" id="modal-title">Add a new tool</h2>
+        <button class="btn btn--secondary btn--icon btn--sm" id="close-modal" type="button" aria-label="Close">
+          <svg class="icon"><use href="#i-close"/></svg>
+        </button>
+      </div>
+
+      <hr class="divider">
+
+      <form class="modal__form" id="tool-form" novalidate>
+        <div class="modal__intro">
+          <h3 class="modal__heading">Share a cool tool with us!</h3>
+          <p class="modal__text">Know a great tool that deserves a spot on Stacked? Drop it here - we’d love to check it out and maybe feature it!</p>
+        </div>
+
+        <div class="group" role="group" aria-labelledby="g-info">
+          <p class="group__title" id="g-info">Your info</p>
+          <div class="field">
+            <label for="f-name">Your first name</label>
+            <input class="input" id="f-name" name="firstName" type="text" placeholder="e.g. Alex" autocomplete="given-name" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Your email</label>
+            <input class="input" id="f-email" name="email" type="email" placeholder="e.g. alex@email.com" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="group" role="group" aria-labelledby="g-tool">
+          <p class="group__title" id="g-tool">Tool details</p>
+          <div class="field">
+            <label for="f-tool">Tool name</label>
+            <input class="input" id="f-tool" name="toolName" type="text" placeholder="e.g. Notion" autocomplete="off" required>
+          </div>
+          <div class="field">
+            <label for="f-link">Tool link</label>
+            <input class="input" id="f-link" name="toolLink" type="text" inputmode="url" placeholder="e.g. notion.so" autocomplete="off" autocapitalize="off" required>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <button class="btn btn--primary btn--block" id="submit-btn" type="submit">Send it over</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="tools.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
