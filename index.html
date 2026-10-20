@@ -11,6 +11,7 @@
   <meta property="og:description" content="Collecting tools that inspire. My personal stack of finds worth sharing.">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -87,7 +88,7 @@
 
   <!-- Categories -->
   <nav class="categories" aria-label="Categories">
-    <div class="categories__list">
+    <div class="categories__list" id="cat-list">
       <button class="chip is-selected" type="button" data-category="All" aria-pressed="true">
         <svg class="icon"><use href="#i-compass"/></svg>All
       </button>
@@ -160,6 +161,11 @@
       <button class="chip" type="button" data-category="Writing" aria-pressed="false">
         <svg class="icon"><use href="#i-book"/></svg>Writing
       </button>
+    </div>
+    <!-- Collapse toggle: managed by script.js (shows max. 2 rows of categories) -->
+    <div class="categories__toggle">
+      <button class="chip chip--toggle" id="cat-more" type="button" aria-expanded="false" aria-controls="cat-list" hidden></button>
+      <button class="chip chip--toggle" id="cat-less" type="button" aria-expanded="true" aria-controls="cat-list" hidden>Show less</button>
     </div>
   </nav>
 

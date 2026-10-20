@@ -23,28 +23,40 @@ index.html     markup: top nav, categories, grid container, footer, "Add a new t
 styles.css     design tokens (:root) + components + responsive rules
 script.js      renders cards, category filter, search, modal + form
 tools.js       the list of tools (this is the file you edit most)
+scripts/       csv_to_tools.py (Framer export → tools.js), download_images.py (host thumbnails locally)
 assets/
   icons/       original SVG icons + logo (the sprite inside index.html is built from these)
-  tools/       card thumbnails (16:10, ~560×350)
+  tools/       card thumbnails (16:10) – filled by scripts/download_images.py
   fonts/       Geist (SIL Open Font License, see OFL.txt)
   favicon.svg
 ```
 
-## Add a tool
+## Tools data
 
-Add an object at the top of `window.STACKED_TOOLS` in `tools.js`, and drop a 16:10 thumbnail (≈560×350 px, `.webp`/`.png`/`.jpg`) into `assets/tools/`:
+All tools live in `tools.js` (one tool per line, newest first). Edit it by hand, or regenerate it from a Framer CMS export:
 
-```js
-{
-  title: "Tool name",
-  description: "One short sentence.",
-  url: "https://example.com",
-  image: "assets/tools/tool-name.webp",
-  categories: ["Design", "AI"]      // one or more names from the category bar
-}
+```bash
+python3 scripts/csv_to_tools.py tool.csv category.csv     # overwrites tools.js
 ```
 
-The "tools collected" counter in the nav is calculated from the list. A card with an empty `url` is shown but not clickable.
+Each tool has `title`, `description`, `url`, `image` and `categories` (names from the category bar). The "tools collected" counter is calculated from the list. A tool with an empty `url` is shown but not clickable.
+
+### Thumbnails
+
+`image` is either a URL or a path inside `assets/tools/`. After a Framer export the images still point to Framer's CDN. To host them yourself (recommended – they keep working if the Framer project goes away, and the page gets lighter):
+
+```bash
+pip3 install pillow                      # once
+python3 scripts/download_images.py       # run from the project root
+```
+
+The script downloads every image into `assets/tools/` and rewrites `tools.js`. Small WebP files are kept untouched; other formats (PNG/JPG) are converted to WebP at 712×446. It can be re-run safely – existing files are skipped and failed downloads are retried.
+
+New tool by hand: save a 16:10 image (≈712×446 px, `.webp`/`.png`/`.jpg`) into `assets/tools/` and add a line to `tools.js`:
+
+```js
+{"title": "Tool name", "description": "One short sentence.", "url": "https://example.com", "image": "assets/tools/tool-name.webp", "categories": ["Design", "AI"]},
+```
 
 ## "Submit tool" form
 

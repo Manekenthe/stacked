@@ -241,6 +241,8 @@ button { cursor: pointer; }
   .chip:hover { border-color: var(--border-strong); }
 }
 
+.chip--toggle { margin-top: 10px; }
+
 .chip.is-selected {
   background: var(--border);
   border-color: var(--border);
@@ -471,15 +473,12 @@ button { cursor: pointer; }
   .topnav__right { display: contents; }
   .search { order: 5; flex: 1 1 100%; }
 
-  .categories__list {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin: 0 calc(var(--space) * -1);
-    padding: 0 var(--space);
-    scrollbar-width: none;
-  }
-  .categories__list::-webkit-scrollbar { display: none; }
-  .chip { flex: none; }
-
   .footer { flex-direction: column; align-items: flex-start; }
+}
+
+/* iOS Safari zooms the page when an input with font-size < 16px gets focus.
+   On touch devices inputs use 16px so the screen stays put. */
+@media (pointer: coarse) {
+  .search input,
+  .input { font-size: 16px; }
 }

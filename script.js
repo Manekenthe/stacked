@@ -95,7 +95,7 @@
     empty.hidden = visible !== 0;
   }
 
-  var chips = $$(".chip");
+  var chips = $$(".chip[data-category]");
   chips.forEach(function (chip) {
     chip.addEventListener("click", function () {
       chips.forEach(function (c) {
@@ -105,8 +105,78 @@
       });
       state.category = norm(chip.dataset.category);
       applyFilters();
+      layoutCategories();          // keep the selected chip visible in the collapsed list
     });
   });
+
+  /* ---------- Categories: max. 2 rows + "+ N more" ---------- */
+  var catList = $(".categories__list");
+  var moreBtn = $("#cat-more");
+  var lessBtn = $("#cat-less");
+  var MAX_ROWS = 2;
+  var catsExpanded = false;
+  var lastCatWidth = 0;
+
+  function rowCount() {
+    var tops = {};
+    chips.forEach(function (c) {
+      if (!c.hidden) tops[c.offsetTop] = true;
+    });
+    return Object.keys(tops).length;
+  }
+
+  // Hide every chip from index k on (the selected one stays visible) and set the "+ N more" label.
+  function collapseFrom(k) {
+    var hiddenCount = 0;
+    chips.forEach(function (c, i) {
+      var hide = i >= k && !c.classList.contains("is-selected");
+      c.hidden = hide;
+      if (hide) hiddenCount++;
+    });
+    moreBtn.textContent = "+ " + hiddenCount + " more";
+  }
+
+  function layoutCategories() {
+    lastCatWidth = catList.clientWidth;
+    chips.forEach(function (c) { c.hidden = false; });
+    moreBtn.hidden = true;
+    lessBtn.hidden = true;
+
+    if (rowCount() <= MAX_ROWS) return;                 // everything fits – no toggle needed
+
+    var k = chips.length;
+    do {                                                // how many chips fit into MAX_ROWS rows
+      k--;
+      collapseFrom(k);
+    } while (k > 0 && rowCount() > MAX_ROWS);
+
+    if (catsExpanded) {                                 // user opened the full list
+      chips.forEach(function (c) { c.hidden = false; });
+      lessBtn.hidden = false;
+    } else {
+      moreBtn.hidden = false;
+    }
+  }
+
+  moreBtn.addEventListener("click", function () {
+    catsExpanded = true;
+    layoutCategories();
+  });
+  lessBtn.addEventListener("click", function () {
+    catsExpanded = false;
+    layoutCategories();
+    moreBtn.focus();
+  });
+
+  layoutCategories();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(layoutCategories);
+  if (window.ResizeObserver) {
+    new ResizeObserver(function () {
+      if (catList.clientWidth !== lastCatWidth) layoutCategories();
+    }).observe(catList);
+  } else {
+    window.addEventListener("resize", layoutCategories);
+  }
 
   var searchForm = $("#search-form");
   var search = $("#search");
