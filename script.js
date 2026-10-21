@@ -12,7 +12,8 @@
     // Where the "Add a new tool" form is sent (POST, JSON). Works with Formspree,
     // Web3Forms, Basin, your own endpoint… Leave empty to fall back to a
     // pre-filled e-mail draft (mailto) instead.
-    submitEndpoint: "",
+    submitEndpoint: "https://api.web3forms.com/submit",   // e.g. "https://api.web3forms.com/submit" or "https://formspree.io/f/xxxxxxxx"
+    accessKey: "8430f91f-8b1c-418c-a6e5-071d4fd00085",        // only for Web3Forms: the public access key you get by e-mail
     fallbackEmail: "addtostacked@proton.me",
     thanksDuration: 3000 // ms the button shows "Thanks a ton!"
   };
@@ -298,6 +299,8 @@
       toolLink: $("#f-link").value.trim()
     };
 
+    if ($("#f-website").value) { setLabel("Thanks a ton!", true); return; }   // honeypot (bots only)
+
     var checks = [
       ["#f-name", !!data.firstName],
       ["#f-email", validEmail(data.email)],
@@ -323,18 +326,36 @@
       }, CONFIG.thanksDuration);
     };
 
+    var message = "Tool: " + data.toolName + "\nLink: " + data.toolLink +
+                  "\n\nFrom: " + data.firstName + " (" + data.email + ")";
+
     if (CONFIG.submitEndpoint) {
+      var payload = {
+        firstName: data.firstName,
+        name: data.firstName,
+        email: data.email,
+        toolName: data.toolName,
+        toolLink: data.toolLink,
+        subject: "New tool for Stacked: " + data.toolName,
+        message: message,
+        botcheck: false
+      };
+      if (CONFIG.accessKey) payload.access_key = CONFIG.accessKey;
+
       fetch(CONFIG.submitEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify(data)
-      }).then(function (r) { done(r.ok); }).catch(function () { done(false); });
+        body: JSON.stringify(payload)
+      }).then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (j) {
+          done(r.ok && j.success !== false);
+        });
+      }).catch(function () { done(false); });
     } else {
-      var body = "Tool: " + data.toolName + "\nLink: " + data.toolLink +
-                 "\n\nFrom: " + data.firstName + " (" + data.email + ")";
+      // no form service configured – fall back to the visitor's e-mail client
       window.location.href = "mailto:" + CONFIG.fallbackEmail +
         "?subject=" + encodeURIComponent("New tool for Stacked: " + data.toolName) +
-        "&body=" + encodeURIComponent(body);
+        "&body=" + encodeURIComponent(message);
       done(true);
     }
   });
