@@ -442,7 +442,7 @@ window.STACKED_TOOLS = [
   {"title": "Lovable", "description": "Build with AI by chatting", "url": "https://lovable.dev", "image": "assets/tools/YIUDTc8gd6bQlPgP1N4VvGEge6w.webp", "categories": ["AI", "Design", "Coding", "No-Code"]},
   {"title": "Letterpal", "description": "Write newsletters in minutes", "url": "https://letterpal.io", "image": "assets/tools/WTbu1SlaDkY3wvxFP9Y23hLM2U.webp", "categories": ["AI", "Productivity", "Startups", "Writing"]},
   {"title": "Bolt New", "description": "Build apps with AI chat", "url": "https://bolt.new", "image": "assets/tools/1A50otpj7DxNJjpEIobcFzkoiM.webp", "categories": ["AI", "Design", "Coding", "No-Code"]},
-  {"title": "UI Faces", "description": "Avatars for your UI mockups", "url": "", "image": "assets/tools/EOMUUeydjrAU26drGIVBqHIfQns.webp", "categories": ["AI", "Design", "Design Resources", "Social Media"]},
+  {"title": "UI Faces", "description": "Avatars for your UI mockups", "url": "https://uifaces.co", "image": "assets/tools/EOMUUeydjrAU26drGIVBqHIfQns.webp", "categories": ["AI", "Design", "Design Resources", "Social Media"]},
   {"title": "T3 Chat", "description": "Fast, multi-model AI chat", "url": "https://t3.chat", "image": "assets/tools/hD1hoesNO8KCXVPAwVELhFoaTJg.webp", "categories": ["AI", "Productivity"]},
   {"title": "Emojis", "description": "AI emoji generator", "url": "https://emojis.com", "image": "assets/tools/dvjfCeaQrSjRDyF3MfZLJH1y1I.webp", "categories": ["AI", "Social Media", "Design", "Design Resources"]},
   {"title": "Shapen", "description": "Transform images into 3D", "url": "https://shapen.com", "image": "assets/tools/cxB31vPYyDPBqB96Q5FQCSv6Gxs.webp", "categories": ["AI", "3D", "Design", "Design Resources"]},
