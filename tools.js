@@ -463,7 +463,7 @@ window.STACKED_TOOLS = [
   {"title": "Super Complete", "description": "AI autocomplete for any app", "url": "https://supercomplete.ai", "image": "assets/tools/X6x9hyGDZtxw3xbF5Pb39p0omkE.webp", "categories": ["AI", "Productivity"]},
   {"title": "Base 44", "description": "Build apps with words, no code", "url": "https://base44.com", "image": "assets/tools/CM0N7Js55ZcL78Xs8AvMYypWxU.webp", "categories": ["AI", "Design", "No-Code", "Productivity"]},
   {"title": "Grug", "description": "Minimalist design tool", "url": "https://grug.design", "image": "assets/tools/CrqDVJI2vVo0wWe3ZWI4uy9ORyI.webp", "categories": ["Design", "Inspiration"]},
-  {"title": "STL to ASCII", "description": "Convert 3D models to ASCII art", "url": "", "image": "assets/tools/KbCC1g56AL4BuuU9r5rAd7Kus.webp", "categories": ["Design", "Coding", "Design Resources"]},
+  {"title": "STL to ASCII", "description": "Convert 3D models to ASCII art", "url": "https://andrewsink.github.io/STL-to-ASCII-Generator/", "image": "assets/tools/KbCC1g56AL4BuuU9r5rAd7Kus.webp", "categories": ["Design", "Coding", "Design Resources"]},
   {"title": "New Email", "description": "Create emails with AI", "url": "https://new.email", "image": "assets/tools/xoHmlUdwxoHq7mwCDKyF7AvQP5w.webp", "categories": ["AI", "Design", "Productivity", "Writing"]},
   {"title": "Stable Diffusion", "description": "Generate AI art from text prompts", "url": "https://stablediffusionweb.com", "image": "assets/tools/YzXGdJLBI1114UjaK2yscHoUgw.webp", "categories": ["AI", "Design", "Design Resources", "Productivity"]},
   {"title": "Locally AI", "description": "Run AI models offline on your device", "url": "https://ocallyai.app", "image": "assets/tools/NgMlWQ3lHnDY2FEfEECnu9jCSaw.webp", "categories": ["AI", "Productivity"]},
