@@ -708,7 +708,7 @@ window.STACKED_TOOLS = [
   {"title": "NameQuick", "description": "AI-powered file renaming", "url": "https://namequick.app", "image": "assets/tools/IzsVlceJ5nysNJfMcedrqJbxIQ.webp", "categories": ["AI", "Productivity", "Privacy & Security"]},
   {"title": "SemanticArt", "description": "AI-generated art platform", "url": "https://semantic.art", "image": "assets/tools/5iQsBGEcyZ4LBbg5ForGPOGxv0.webp", "categories": ["AI", "Design", "Inspiration"]},
   {"title": "Thiings", "description": "Free 3D AI-icons library", "url": "https://thiings.co", "image": "assets/tools/LuWFJGrxjYuEk5ED69s7j2lPvY.webp", "categories": ["AI", "Design", "Design Resources"]},
-  {"title": "Wallpaper FM", "description": "AI‑generated wallpapers for mobile", "url": "", "image": "assets/tools/6GyLHKbkVQAT4aCIVdt3zxhXhlQ.webp", "categories": ["Design", "Design Resources", "Inspiration"]},
+  {"title": "Wallpaper FM", "description": "AI‑generated wallpapers for mobile", "url": "https://www.wallpaper.fm", "image": "assets/tools/6GyLHKbkVQAT4aCIVdt3zxhXhlQ.webp", "categories": ["Design", "Design Resources", "Inspiration"]},
   {"title": "Iconei", "description": "Premium icon library for UI", "url": "https://iconei.com", "image": "assets/tools/bq6qtu9IbG71L9IcknI8OflqKkA.webp", "categories": ["Design", "Design Resources"]},
   {"title": "Podia", "description": "Sell digital products & memberships", "url": "https://podia.com", "image": "assets/tools/YgFfNAIQcC8xrjuRq4O8UBWsnI.webp", "categories": ["E-Commerce", "Productivity"]},
   {"title": "Frame", "description": "Creative-team collaboration hub", "url": "https://frame.io", "image": "assets/tools/oUBWs4ZDMqjqZ1DIf3i3yCxlo.webp", "categories": ["Design", "Productivity", "Video"]},
