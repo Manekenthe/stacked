@@ -630,7 +630,7 @@ window.STACKED_TOOLS = [
   {"title": "WebJourney", "description": "Build websites with AI chat", "url": "https://app.webjourney.pro", "image": "assets/tools/owgnmcsVk6qESSdBWs8BSQGj6hM.webp", "categories": ["AI", "Design", "No-Code", "Productivity"]},
   {"title": "Eagle", "description": "Organize all your creative assets", "url": "https://eagle.cool", "image": "assets/tools/glXj4uchyLYHHyMFGtdXjvN9U.webp", "categories": ["Design", "Productivity"]},
   {"title": "PixelApps", "description": "Generate UI for your apps fast", "url": "https://pixelapps.io", "image": "assets/tools/4yPWToTqLrUMxtrSdHVXbD7GBE.webp", "categories": ["AI", "Design", "Coding", "Productivity"]},
-  {"title": "Animant", "description": "AI interactive 3D presentations", "url": "", "image": "assets/tools/k5x8iG9stU1ZdeTiC5zFHK6esVY.webp", "categories": ["AI", "Design", "Video"]},
+  {"title": "Animant", "description": "AI interactive 3D presentations", "url": "https://animantlabs.com/animant", "image": "assets/tools/k5x8iG9stU1ZdeTiC5zFHK6esVY.webp", "categories": ["AI", "Design", "Video"]},
   {"title": "Design.dev", "description": "Daily tools & tips for web dev", "url": "https://design.dev", "image": "assets/tools/f9CJ01mBJgVH6RYmEl91WTZ6CAE.webp", "categories": ["Coding", "Design", "Productivity"]},
   {"title": "Better Auth", "description": "Auth framework for TypeScript", "url": "https://better-auth.com", "image": "assets/tools/uqALXY99c5cBgLaZnVYweXePnM.webp", "categories": ["Coding", "Productivity"]},
   {"title": "Plasticity", "description": "Artist-grade 3D CAD software", "url": "https://plasticity.xyz", "image": "assets/tools/DEqe4fzPAQthrWg35sVZRA4drw.webp", "categories": ["3D", "Design", "Productivity"]},
