@@ -11,7 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
-  {"title": "Moving Image Archive", "description": "Searchable library of public-domain archival footage you can watch and download shot by shot", "url": "https://www.movingimagearchive.com", "image": "assets/tools/moving-image-archive-thumb.png", "categories": ["Design", "Design Resources", "Video", "Inspiration"]}, 
+  {"title": "Moving Image Archive", "description": "Searchable library of public-domain archival footage you can watch and download shot by shot", "url": "https://www.movingimagearchive.com", "image": "assets/tools/moving-image-archive-thumb.webp", "categories": ["Design", "Design Resources", "Video", "Inspiration"]}, 
   {"title": "Easing Graphs", "description": "Curated collection of cubic and spring easing graphs for motion design", "url": "https://easing.dev", "image": "assets/tools/DJaV2SoDaOByuVs50wguwYBO0.webp", "categories": ["Design", "Design Resources", "Coding"]},
   {"title": "Generative Loaders", "description": "React library of animated loaders for text, inline and image generation states", "url": "https://generativeloaders.com", "image": "assets/tools/aPyGBhIn5zI3waqWbZfP2ifY20.webp", "categories": ["Design", "Design Resources", "Coding", "AI"]},
   {"title": "AnimateIcons", "description": "Open-source library of 1,170+ animated icons for React, Vue, Angular and plain JavaScript", "url": "https://animateicons.in", "image": "assets/tools/HDSJM0BqBHdlyuw1ZOh47CsE.webp", "categories": ["Design", "Design Resources", "Coding"]},
