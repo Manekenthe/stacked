@@ -649,7 +649,7 @@ window.STACKED_TOOLS = [
   {"title": "Twine", "description": "Hire vetted creatives globally", "url": "https://twine.net", "image": "assets/tools/xz1zsnlJN4x4CTUUsyZN2YJEKzo.webp", "categories": ["Design", "Video", "Marketing", "Startups"]},
   {"title": "Polymer", "description": "Branded job boards & ATS", "url": "https://polymer.co", "image": "assets/tools/nIQIo9K8cMyRr88zIYNOwNp4hn4.webp", "categories": ["Productivity"]},
   {"title": "Drawerrr", "description": "Collaborate on sustainable design challenges", "url": "https://drawerrr.com", "image": "assets/tools/FiRXQAWlk9ozNbdtM4ivAgMOo.webp", "categories": ["Design", "AI", "Inspiration"]},
-  {"title": "Storytale", "description": "Stylish illustrations for web & apps", "url": "", "image": "assets/tools/mvAWVUH8dAzDc1gwsg0QcE3nxZI.webp", "categories": ["Design", "Productivity"]},
+  {"title": "Storytale", "description": "Stylish illustrations for web & apps", "url": "https://storytale.io", "image": "assets/tools/mvAWVUH8dAzDc1gwsg0QcE3nxZI.webp", "categories": ["Design", "Productivity"]},
   {"title": "Angle", "description": "High‑quality device mockups for designers", "url": "https://angle.sh", "image": "assets/tools/W6vq0wPVr2VXKkwATvPcxdOFMM.webp", "categories": ["Design", "Productivity"]},
   {"title": "Rotato", "description": "Create stunning 3D mockups & animations", "url": "https://rotato.app", "image": "assets/tools/dgocFI4i62UQdjuL7bFqZLTY8.webp", "categories": ["Design", "Productivity", "Video"]},
   {"title": "Userbit", "description": "UX research platform for agencies & freelancers", "url": "https://userbit.com", "image": "assets/tools/CW0UpNn5msWelWIzamsSUqFVn10.webp", "categories": ["Design", "Productivity"]},
