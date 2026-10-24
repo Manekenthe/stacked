@@ -681,7 +681,7 @@ window.STACKED_TOOLS = [
   {"title": "Billow", "description": "Run your freelance business smarter", "url": "https://billow.software", "image": "assets/tools/C9NcFqf656xMRtkXpF2vkDQyk.webp", "categories": ["Finance", "Productivity", "Startups"]},
   {"title": "App Shots", "description": "Curated app screen & UX flows", "url": "https://appshots.design", "image": "assets/tools/jRlhkmzIyDRwSFZ4iyNBUyKIZQ.webp", "categories": ["Design", "Inspiration"]},
   {"title": "Minimal Gallery", "description": "Curated minimal web design inspiration", "url": "https://minimal.gallery", "image": "assets/tools/7qODlPNGHHLlajZgKGpjxYJQyho.webp", "categories": ["Design", "Inspiration"]},
-  {"title": "Glims", "description": "Turn shots into showreels fast", "url": "", "image": "assets/tools/lVqFlARdXW0IB2P2rJZLn5QTPZA.webp", "categories": ["Design", "Productivity", "Video"]},
+  {"title": "Glims", "description": "Turn shots into showreels fast", "url": "https://glims.io", "image": "assets/tools/lVqFlARdXW0IB2P2rJZLn5QTPZA.webp", "categories": ["Design", "Productivity", "Video"]},
   {"title": "100x Wallet", "description": "Web3 wallet generator & vault", "url": "https://100x-wallet.gxuri.in", "image": "assets/tools/2HP1NImZrA5jtf8hpr4OVXfHIwk.webp", "categories": ["Finance", "Web3"]},
   {"title": "Render", "description": "Deploy apps and websites easily", "url": "https://render.com", "image": "assets/tools/hYV5kuzB4wilRsATNay0KzCvJo.webp", "categories": ["Coding", "Productivity"]},
   {"title": "Nucleo", "description": "34 000+ premium SVG icons", "url": "https://nucleoapp.com", "image": "assets/tools/PEfk0EnWrx7HR2qVx2HY1cLgs.webp", "categories": ["Design", "Design Resources"]},
