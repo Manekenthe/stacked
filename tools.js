@@ -654,7 +654,7 @@ window.STACKED_TOOLS = [
   {"title": "Rotato", "description": "Create stunning 3D mockups & animations", "url": "https://rotato.app", "image": "assets/tools/dgocFI4i62UQdjuL7bFqZLTY8.webp", "categories": ["Design", "Productivity", "Video"]},
   {"title": "Userbit", "description": "UX research platform for agencies & freelancers", "url": "https://userbit.com", "image": "assets/tools/CW0UpNn5msWelWIzamsSUqFVn10.webp", "categories": ["Design", "Productivity"]},
   {"title": "Mixpanel", "description": "Advanced product analytics platform", "url": "https://mixpanel.com", "image": "assets/tools/mKYxRUQpeLgzphjb4YXaEIVxvnU.webp", "categories": ["Analytics", "Productivity"]},
-  {"title": "Mintlify", "description": "AI-powered docs platform", "url": "", "image": "assets/tools/wGIwB3aQXWZXXb69UM5qZizES7w.webp", "categories": ["AI", "Coding", "Productivity"]},
+  {"title": "Mintlify", "description": "AI-powered docs platform", "url": "https://www.mintlify.com", "image": "assets/tools/wGIwB3aQXWZXXb69UM5qZizES7w.webp", "categories": ["AI", "Coding", "Productivity"]},
   {"title": "ArtStation", "description": "Professional artist portfolio & marketplace", "url": "https://artstation.com", "image": "assets/tools/fjPjfGT9lqG5kFFeK4WEfLYjGiE.webp", "categories": ["Design", "Inspiration"]},
   {"title": "Damn Good UI", "description": "UI patterns that convert", "url": "https://damngoodui.com", "image": "assets/tools/XrgtnME6X6a1pYC8HToqSWRRJFM.webp", "categories": ["Design", "Inspiration", "Productivity"]},
   {"title": "Kit", "description": "Share and earn from product picks", "url": "https://kit.co", "image": "assets/tools/Z0KkWbn7SEn4lxzPgqDfGDME98.webp", "categories": ["E-Commerce", "Social Media"]},
