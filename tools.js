@@ -740,7 +740,7 @@ window.STACKED_TOOLS = [
   {"title": "Reflex", "description": "Build full-stack apps in Python", "url": "https://reflex.dev", "image": "assets/tools/t3DJ5cUDG8VpCIN5y87PvaPYxE0.webp", "categories": ["AI", "Coding"]},
   {"title": "Noodle", "description": "Student productivity platform", "url": "https://noodle.run", "image": "assets/tools/S6mzIvLO1L4GW9UMOg6LFac85hk.webp", "categories": ["Coding", "Productivity"]},
   {"title": "Analog", "description": "Open-source calendar that adapts", "url": "https://analog.now", "image": "assets/tools/lZgPtZNMSJENGNewfD0S8xa1eHE.webp", "categories": ["Design", "Coding", "Productivity"]},
-  {"title": "Super", "description": "Turn Notion pages into websites", "url": "", "image": "assets/tools/5JLRTCDuq5WokzPJ2aV9tqIiHQ.webp", "categories": ["Design", "No-Code", "Productivity"]},
+  {"title": "Super", "description": "Turn Notion pages into websites", "url": "https://super.so", "image": "assets/tools/5JLRTCDuq5WokzPJ2aV9tqIiHQ.webp", "categories": ["Design", "No-Code", "Productivity"]},
   {"title": "Interfere", "description": "Self-healing layer for software", "url": "https://interfere.com", "image": "assets/tools/ljAQ4nVWjBLrEODScZlfWEQ5dfs.webp", "categories": ["AI", "Coding", "Productivity"]},
   {"title": "Slane", "description": "Intelligent workspace for teams", "url": "https://slane.app", "image": "assets/tools/JosBOqOjF3TpIypylnVnAgf3h0.webp", "categories": ["AI", "Productivity", "Startups"]},
   {"title": "Nuxt", "description": "The intuitive web framework", "url": "https://nuxt.com", "image": "assets/tools/3SOPEtui0qFe3o5NFU67EDRGoU.webp", "categories": ["Coding", "Productivity"]},
