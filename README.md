@@ -82,4 +82,4 @@ Icons are inlined as an SVG sprite (`<symbol id="i-name">`) at the top of `index
 
 ## Credits
 
-Made by [@dsgntgthr](https://designtogether.framer.website/). Typeface: [Geist](https://github.com/vercel/geist-font) (OFL 1.1).
+Made by [@manekenthe](https://heymartin.xyz/). Typeface: [Geist](https://github.com/vercel/geist-font) (OFL 1.1).
