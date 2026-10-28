@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "ReactDrops", "description": "Library of creative React components and effects with live previews and AI-ready prompts", "url": "https://reactdrops.dev", "image": "assets/tools/reactDrops-thumb.webp", "categories": ["Design", "Design Resources", "Coding"]}, 
   {"title": "Firecrawl", "description": "Open-source web data API that lets AI agents search, scrape and interact with websites", "url": "https://www.firecrawl.dev", "image": "assets/tools/firecrawl-thumb.webp", "categories": ["AI", "Coding"]}, 
   {"title": "Moving Image Archive", "description": "Searchable library of public-domain archival footage you can watch and download shot by shot", "url": "https://www.movingimagearchive.com", "image": "assets/tools/moving-image-archive-thumb.webp", "categories": ["Design", "Design Resources", "Video", "Inspiration"]}, 
   {"title": "Easing Graphs", "description": "Curated collection of cubic and spring easing graphs for motion design", "url": "https://easing.dev", "image": "assets/tools/DJaV2SoDaOByuVs50wguwYBO0.webp", "categories": ["Design", "Design Resources", "Coding"]},
