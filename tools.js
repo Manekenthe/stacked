@@ -11,8 +11,9 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "IconMCP", "description": "Open-source library of 6,248 icons with an MCP server that lets coding agents search by meaning", "url": "https://iconmcp.com/", "image": "assets/tools/iconmcp-thumb.webp", "categories": ["Design", "Design Resources", "Coding", "AI"]},
   {"title": "Shaper", "description": "Tool for drawing and merging shapes in 2D or 3D with export to PNG, SVG or GLB", "url": "https://shaper.ui8.dev", "image": "assets/tools/shaper-thumb.webp", "categories": ["Design", "Design Resources", "3D"]},
-   {"title": "ReactDrops", "description": "Library of creative React components and effects with live previews and AI-ready prompts", "url": "https://reactdrops.dev", "image": "assets/tools/reactDrops-thumb.webp", "categories": ["Design", "Design Resources", "Coding"]}, 
+  {"title": "ReactDrops", "description": "Library of creative React components and effects with live previews and AI-ready prompts", "url": "https://reactdrops.dev", "image": "assets/tools/reactDrops-thumb.webp", "categories": ["Design", "Design Resources", "Coding"]}, 
   {"title": "Firecrawl", "description": "Open-source web data API that lets AI agents search, scrape and interact with websites", "url": "https://www.firecrawl.dev", "image": "assets/tools/firecrawl-thumb.webp", "categories": ["AI", "Coding"]}, 
   {"title": "Moving Image Archive", "description": "Searchable library of public-domain archival footage you can watch and download shot by shot", "url": "https://www.movingimagearchive.com", "image": "assets/tools/moving-image-archive-thumb.webp", "categories": ["Design", "Design Resources", "Video", "Inspiration"]}, 
   {"title": "Easing Graphs", "description": "Curated collection of cubic and spring easing graphs for motion design", "url": "https://easing.dev", "image": "assets/tools/DJaV2SoDaOByuVs50wguwYBO0.webp", "categories": ["Design", "Design Resources", "Coding"]},
