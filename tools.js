@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "FaceTypes", "description": "Curated library of 519 free and open-source typefaces with a built-in font identifier", "url": "https://facetypes.xyz", "image": "assets/tools/faceTypes-thumb.webp", "categories": ["Design", "Design Resources"]},
   {"title": "IconMCP", "description": "Open-source library of 6,248 icons with an MCP server that lets coding agents search by meaning", "url": "https://iconmcp.com/", "image": "assets/tools/iconmcp-thumb.webp", "categories": ["Design", "Design Resources", "Coding", "AI"]},
   {"title": "Shaper", "description": "Tool for drawing and merging shapes in 2D or 3D with export to PNG, SVG or GLB", "url": "https://shaper.ui8.dev", "image": "assets/tools/shaper-thumb.webp", "categories": ["Design", "Design Resources", "3D"]},
   {"title": "ReactDrops", "description": "Library of creative React components and effects with live previews and AI-ready prompts", "url": "https://reactdrops.dev", "image": "assets/tools/reactDrops-thumb.webp", "categories": ["Design", "Design Resources", "Coding"]}, 
