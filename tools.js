@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Stageshow", "description": "Agent skill for building polished animated faux UI demos as React components", "url": "https://benji.org/stageshow", "image": "assets/tools/stageshow-thumb.png", "categories": ["AI", "Design","Coding"]},
   {"title": "Esqia", "description": "Dev-only editor for Next.js that lets you edit MDX directly on the rendered page", "url": "https://esqia.jakub.kr/", "image": "assets/tools/esqia-thumb.webp", "categories": ["Coding", "Writing","Productivity"]},
   {"title": "FaceTypes", "description": "Curated library of 519 free and open-source typefaces with a built-in font identifier", "url": "https://facetypes.xyz", "image": "assets/tools/faceTypes-thumb.webp", "categories": ["Design", "Design Resources"]},
   {"title": "IconMCP", "description": "Open-source library of 6,248 icons with an MCP server that lets coding agents search by meaning", "url": "https://iconmcp.com/", "image": "assets/tools/iconmcp-thumb.webp", "categories": ["Design", "Design Resources", "Coding", "AI"]},
