@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Nuko", "description": "Browser-based motion design editor for animating posts, stories and videos with templates and multi-format export", "url": "https://deimos.evilrabbit.com/", "image": "assets/tools/nuko-thumb.webp", "categories": ["Design", "Video", "Social Media", "AI"]},
   {"title": "Deimos", "description": "AI-written encyclopedia where a panel of models deliberates, cross-examines sources and shows its work", "url": "https://deimos.evilrabbit.com/", "image": "assets/tools/deimos-thumb.webp", "categories": ["AI", "Learning","Inspiration"]},
   {"title": "Stageshow", "description": "Agent skill for building polished animated faux UI demos as React components", "url": "https://benji.org/stageshow", "image": "assets/tools/stageshow-thumb.webp", "categories": ["AI", "Design","Coding"]},
   {"title": "Esqia", "description": "Dev-only editor for Next.js that lets you edit MDX directly on the rendered page", "url": "https://esqia.jakub.kr/", "image": "assets/tools/esqia-thumb.webp", "categories": ["Coding", "Writing","Productivity"]},
