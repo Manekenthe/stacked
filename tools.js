@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Planes", "description": "Library of 180+ animated React components installed as source via shadcn, with MCP support for AI agents", "url": "https://useplanes.com/", "image": "assets/tools/planes-thumb.webp", "categories": ["Design Resources", "Coding","Design"]},
   {"title": "Nuko", "description": "Browser-based motion design editor for animating posts, stories and videos with templates and multi-format export", "url": "https://deimos.evilrabbit.com/", "image": "assets/tools/nuko-thumb.webp", "categories": ["Design", "Video", "Social Media", "AI"]},
   {"title": "Deimos", "description": "AI-written encyclopedia where a panel of models deliberates, cross-examines sources and shows its work", "url": "https://deimos.evilrabbit.com/", "image": "assets/tools/deimos-thumb.webp", "categories": ["AI", "Learning","Inspiration"]},
   {"title": "Stageshow", "description": "Agent skill for building polished animated faux UI demos as React components", "url": "https://benji.org/stageshow", "image": "assets/tools/stageshow-thumb.webp", "categories": ["AI", "Design","Coding"]},
