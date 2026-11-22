@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Trazo", "description": "Hand-drawn crayon sticker SVGs for React and web, recolorable and installable from npm", "url": "https://trazo.akoder.xyz/", "image": "assets/tools/trazo-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "Lepoly", "description": "Browser-based digital asset management platform for hosting, reviewing and sharing 3D assets", "url": "https://lepoly.com/", "image": "assets/tools/lepoly-thumb.webp", "categories": ["3D", "Productivity","Design"]},
   {"title": "Planes", "description": "Library of 180+ animated React components installed as source via shadcn, with MCP support for AI agents", "url": "https://useplanes.com/", "image": "assets/tools/planes-thumb.webp", "categories": ["Design Resources", "Coding","Design"]},
   {"title": "Nuko", "description": "Browser-based motion design editor for animating posts, stories and videos with templates and multi-format export", "url": "https://nuko.design", "image": "assets/tools/nuko-thumb.webp", "categories": ["Design", "Video", "Social Media", "AI"]},
