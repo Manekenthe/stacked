@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Phosphor Animated Icons", "description": "Free library of 1,512 animated Phosphor icons exportable as SVG, React, Lottie or Tailwind code", "url": "https://kia-mo.com/phosphor-animated-icons/", "image": "assets/tools/trazo-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "Trazo", "description": "Hand-drawn crayon sticker SVGs for React and web, recolorable and installable from npm", "url": "https://trazo.akoder.xyz/", "image": "assets/tools/trazo-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "Lepoly", "description": "Browser-based digital asset management platform for hosting, reviewing and sharing 3D assets", "url": "https://lepoly.com/", "image": "assets/tools/lepoly-thumb.webp", "categories": ["3D", "Productivity","Design"]},
   {"title": "Planes", "description": "Library of 180+ animated React components installed as source via shadcn, with MCP support for AI agents", "url": "https://useplanes.com/", "image": "assets/tools/planes-thumb.webp", "categories": ["Design Resources", "Coding","Design"]},
