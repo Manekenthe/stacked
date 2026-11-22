@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Backspin", "description": "Free browser-based DJ course with 21 lessons on virtual vinyl turntables and a mixer", "url": "https://backspin-dj.web.app", "image": "assets/tools/backspin-thumb.webp", "categories": ["Audio", "Learning"]},
   {"title": "Phosphor Animated Icons", "description": "Free library of 1,512 animated Phosphor icons exportable as SVG, React, Lottie or Tailwind code", "url": "https://kia-mo.com/phosphor-animated-icons/", "image": "assets/tools/trazo-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "Trazo", "description": "Hand-drawn crayon sticker SVGs for React and web, recolorable and installable from npm", "url": "https://trazo.akoder.xyz/", "image": "assets/tools/trazo-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "Lepoly", "description": "Browser-based digital asset management platform for hosting, reviewing and sharing 3D assets", "url": "https://lepoly.com/", "image": "assets/tools/lepoly-thumb.webp", "categories": ["3D", "Productivity","Design"]},
