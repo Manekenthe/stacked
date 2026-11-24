@@ -11,6 +11,7 @@
    ========================================================================== */
 
 window.STACKED_TOOLS = [
+  {"title": "Torph", "description": "Dependency-free animated text morphing component for React, Vue and Svelte", "url": "https://torph.dev/", "image": "assets/tools/torph-thumb.webp", "categories": ["Design", "Design Resources","Coding"]},
   {"title": "East Asian Graphics Archive", "description": "Curated archive of East Asian graphic design, from posters to packaging, filterable by language", "url": "https://eastasiangraphicsarchive.com/", "image": "assets/tools/the-east-asian-graphic-archive-thumb.webp", "categories": ["Inspiration", "Design Resources","Design"]},
   {"title": "Open Bot Avatar", "description": "Open-source JSON spec and renderer for interactive AI agent avatars", "url": "https://dominikscholz.github.io/open-bot-avatar/", "image": "assets/tools/open-bot-avatar-thumb.webp", "categories": ["AI", "Design Resources","Coding"]},
   {"title": "Frame", "description": "Open-source native media converter for video, audio and images, powered by FFmpeg and processed locally", "url": "https://framegui.app", "image": "assets/tools/frame-thumb.webp", "categories": ["Video", "Audio","Productivity"]},
